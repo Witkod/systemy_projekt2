@@ -1,0 +1,85 @@
+<class-diagram version="1.0.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="TrafficCircleSimulation" 
+    project="Traffic-Circle-Simulation-RMI" file="/Traffic-Circle-Simulation-RMI/src/TrafficCircleSimulation.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="364" y="363"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="java.rmi.server.UnicastRemoteObject" 
+    project="Traffic-Circle-Simulation-RMI" file="/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar" binary="true">    
+    <position height="-1" width="-1" x="714" y="462"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="Client" project="Traffic-Circle-Simulation-RMI" 
+    file="/Traffic-Circle-Simulation-RMI/src/Client.java" binary="false">    
+    <position height="-1" width="-1" x="557" y="-25"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="Server" project="Traffic-Circle-Simulation-RMI" 
+    file="/Traffic-Circle-Simulation-RMI/src/Server.java" binary="false">    
+    <position height="-1" width="-1" x="379" y="-29"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="TrafficCircleSimulationManager" 
+    project="Traffic-Circle-Simulation-RMI" 
+    file="/Traffic-Circle-Simulation-RMI/src/TrafficCircleSimulationManager.java" binary="false">    
+    <position height="-1" width="-1" x="791" y="-37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" corner="BOTTOM_RIGHT" language="java" name="TrafficCircleSimulationInterface" 
+    project="Traffic-Circle-Simulation-RMI" 
+    file="/Traffic-Circle-Simulation-RMI/src/TrafficCircleSimulationInterface.java" binary="false">    
+    <position height="-1" width="-1" x="609" y="193"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="7" corner="BOTTOM_RIGHT" language="java" name="TrafficCircleSimulation.Entrance" 
+    project="Traffic-Circle-Simulation-RMI" file="/Traffic-Circle-Simulation-RMI/src/TrafficCircleSimulation.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="336" y="722"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <realization id="9">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <nesting id="11">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

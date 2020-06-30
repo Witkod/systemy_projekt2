@@ -1,0 +1,7 @@
+Traffic circle simulation with Monte Carlo methods.
+
+Written in Java and RMI for primitive parallelization.
+
+Algorithm is almost a copy-paste of the one in Michael J. Quinn, "Parallel Programing in C with MPI and OpenMPI" book.
+
+The code of algorithm was adapted from C language with minimum effort. It explains why it looks like this.
